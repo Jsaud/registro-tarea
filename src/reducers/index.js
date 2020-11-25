@@ -1,8 +1,8 @@
-import {combineReducers} from 'redux';
-import tareasReducer from './tareasReducer';
-import alertaReducer from './alertaReducer'
+import { combineReducers } from 'redux';
+import tasksReducer from './tasksReducer';
+import alertReducer from './alertReducer';
 
 export default combineReducers({
-    tareas: tareasReducer,
-    alerta: alertaReducer
+    tasks: tasksReducer,
+    alerta: alertReducer
 });

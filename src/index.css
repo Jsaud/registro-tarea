@@ -13,41 +13,47 @@ body {
 h1 a {
   font-size: 1.8rem;
 }
+
 h1 a.text-light:hover {
   color: white!important;
   text-decoration: none!important;
-}
-.nuevo-post{
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 .btn {
   font-weight: bold;
 }
-.form-group label,
-.list-group-item {
-  font-size: 1.4rem;
-}
 
 .navbar .btn {
   flex:1;
 }
+
+.form-group label, .list-group-item {
+  font-size: 1.4rem;
+}
+
 @media (min-width:768px){
-    .navbar .btn {
-      flex: 0 1 auto;
-    }
+  .navbar .btn {
+    flex: 0 0 auto;
+  }
 }
-.acciones {
-  margin: 1rem 0;
-}
+
 @media (min-width:768px) {
-  .acciones{
+  .actions{
     margin: 0;
   }
 }
-.acciones > *{
+
+.actions {
+  margin: 1rem 0;
+}
+
+.actions > *{
   flex: 1;
+}
+
+.new-post{
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .bg-primary{
@@ -56,9 +62,9 @@ background-color:#f42534!important;
 
 .btn-primary{
   background-color:#359fda!important;
-  }
+}
 
-  .btn-danger{
-    background-color:#ffff!important;
-    color:#359fda!important;
-  }
+.btn-danger{
+  background-color:#ffff!important;
+  color:#359fda!important;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
-    return ( 
+    return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between">
             <div className="container">
                 <h1>
@@ -11,14 +11,13 @@ const Header = () => {
                     </Link>
                 </h1>
             </div>
-            
-            
-            <Link className="btn btn-danger nuevo-post d-block d-md-inline-block" 
-            to={"/tareas/nuevo"}
-            >Agregar Tarea &#43;
+
+            <Link className="btn btn-dark new-post d-block d-md-inline-block"
+                to={"/tasks/new"}
+            > &#43; Agregar Tarea
             </Link>
         </nav>
-     );
+    );
 }
- 
+
 export default Header;

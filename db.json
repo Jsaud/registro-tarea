@@ -1,24 +1,24 @@
 {
-  "tareas": [
+  "tasks": [
     {
-      "nombre": "diseñar",
-      "prioridad": "alta",
+      "name": "Desarrollar Componentes",
+      "priority": "alta",
+      "id": 10
+    },
+    {
+      "name": "Diseño Web",
+      "priority": "alta",
       "id": 12
     },
     {
-      "nombre": "maquetar",
-      "prioridad": "alta",
+      "name": "Maquetacion web",
+      "priority": "alta",
       "id": 13
     },
     {
-      "nombre": "programar",
-      "prioridad": "alta",
+      "name": "Test aplicacion ",
+      "priority": "media",
       "id": 14
-    },
-    {
-      "nombre": "pruebas unitarias",
-      "prioridad": "alta",
-      "id": 15
     }
   ]
 }
