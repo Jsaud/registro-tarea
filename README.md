@@ -1,9 +1,9 @@
 ## Pasos para instalar en entorno local
 
-- Clonar proyecto [Github](https://github.com/Jsaud/prueba-trabajo) con el comando 
+- Clonar proyecto [Github](https://github.com/Jsaud/registro-tarea) con el comando 
 
 ```
-git clone https://github.com/Jsaud/prueba-trabajo.git
+git clone https://github.com/Jsaud/registro-tarea.git
 ```
 
 - Ir a la ruta del proyecto descargado y ejecutar los siguientes comandos en su debido orden:
