@@ -1,18 +1,23 @@
 {
   "tareas": [
     {
-      "nombre": "jinett",
+      "nombre": "diseñar",
       "prioridad": "alta",
       "id": 12
     },
     {
-      "nombre": "jinett",
+      "nombre": "maquetar",
       "prioridad": "alta",
       "id": 13
     },
     {
-      "nombre": "jinett",
+      "nombre": "programar",
       "prioridad": "alta",
+      "id": 14
+    }
+    {
+      "nombre": "revisar codigo",
+      "prioridad": "media",
       "id": 14
     }
   ]
