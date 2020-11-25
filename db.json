@@ -14,11 +14,11 @@
       "nombre": "programar",
       "prioridad": "alta",
       "id": 14
-    }
+    },
     {
-      "nombre": "revisar codigo",
-      "prioridad": "media",
-      "id": 14
+      "nombre": "pruebas unitarias",
+      "prioridad": "alta",
+      "id": 15
     }
   ]
 }
